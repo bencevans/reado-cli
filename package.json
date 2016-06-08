@@ -1,0 +1,28 @@
+{
+  "name": "reado-cli",
+  "bin": {
+    "reado": "./bin.js"
+  },
+  "version": "0.0.0",
+  "description": "Command Line Readability Meter",
+  "main": "bin.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "reado",
+    "readability",
+    "reading",
+    "age",
+    "meter",
+    "measure",
+    "grade"
+  ],
+  "author": "Ben Evans <ben@bensbit.co.uk> (http://bensbit.co.uk)",
+  "license": "UNLICENCED",
+  "dependencies": {
+    "get-stdin": "^5.0.1",
+    "readability-meter": "^1.0.0",
+    "unfluff": "^1.0.0"
+  }
+}
