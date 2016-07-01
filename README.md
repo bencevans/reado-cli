@@ -1,4 +1,5 @@
-# reado-cli
+# reado-cli [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/feross/standard) [![Travis](https://img.shields.io/travis/bencevans/reado-cli.svg?style=flat-square)](https://travis-ci.org/bencevans/reado-cli) [![Coveralls](https://img.shields.io/coveralls/bencevans/reado-cli.svg?style=flat-square)](https://coveralls.io/github/bencevans/reado-cli)
+
 
 > Command Line Readability Meter
 
@@ -18,7 +19,7 @@
     score: 43.14897959183676
     schoolLevel: college
     notes: Difficult to read.
-    
+
 **Check a webpage**
 
     $ curl -s http://www.bbc.co.uk/news/business-36437445 | reado --unfluff
@@ -29,5 +30,3 @@
 ## Licence
 
 MIT
-
-
