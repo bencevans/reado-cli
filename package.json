@@ -22,6 +22,7 @@
   "license": "UNLICENCED",
   "dependencies": {
     "get-stdin": "^5.0.1",
+    "minimist": "^1.2.0",
     "readability-meter": "^1.0.0",
     "unfluff": "^1.0.0"
   },
