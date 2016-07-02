@@ -9,6 +9,11 @@ const argv = require('minimist')(process.argv.slice(2));
 
 getStdin().then(str => {
 
+  if (!str) {
+    console.error('missing input')
+    process.exit(1)
+  }
+
   if (argv.unfluff) {
     str = unfluff(str).text
     console.log(str)

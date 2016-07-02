@@ -21,6 +21,15 @@ test('--unfluff', (t) => {
   })
 })
 
-test('missing input', (t) => {
-
-})
+// test('missing input', (t) => {
+//   t.plan(2)
+//   console.log('execing')
+//   exec('./bin.js', {
+//     timeout: 20
+//   }, (err, stdout, stderr) => {
+//     console.log('bob')
+//     t.error(err)
+//     console.log(stderr)
+//     t.assert(stderr.match(/missing input/))
+//   })
+// })
