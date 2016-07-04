@@ -3,7 +3,7 @@
   "bin": {
     "reado": "./bin.js"
   },
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Command Line Readability Meter",
   "main": "bin.js",
   "scripts": {
