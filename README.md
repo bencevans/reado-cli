@@ -5,7 +5,7 @@
 
 ## Install
 
-    npm install --global reado-cli
+    $ npm install --global reado-cli
 
 ## Usage
 
